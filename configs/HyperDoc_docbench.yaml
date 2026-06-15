@@ -1,0 +1,24 @@
+experiment_name: HyperDoc_docbench
+dataset:
+  config_name: docbench
+  test_file: data/docbench/sample-with-retrieval-results.json
+  max_samples: null
+  start_idx: 0
+  end_idx: null
+model:
+  type: qwen3vl
+  path: ${HYPERDOC_REASONER_MODEL}
+  max_new_tokens: 2048
+  temperature: 0.3
+  top_p: 0.8
+retrieval:
+  hypergraph_dir: hypergraph/docbench
+  hypergraph_budget_dirs:
+    - hypergraph/MMLongBench
+    - hypergraph/LongDocURL
+    - hypergraph/docbench
+  alpha_rho: 1.0
+  dynamic_k:
+    fixed_k: null
+output:
+  base_dir: results

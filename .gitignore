@@ -1,0 +1,8 @@
+tmp/
+ocr_results/
+hypergraph/
+results/
+
+__pycache__/
+*.py[cod]
+.cache/

@@ -1,0 +1,2242 @@
+{
+  "document_id": "PH_2016.06.08_Economy-Final",
+  "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+  "total_pages": 23,
+  "extraction_timestamp": "2026-06-15T21:35:04.797904",
+  "blocks": [
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_0_anchor",
+      "type": "figure",
+      "page": 3,
+      "bbox": [
+        466,
+        775,
+        1104,
+        1083
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_0_caption",
+      "type": "figure_caption",
+      "page": 3,
+      "bbox": [
+        470,
+        1090,
+        1076,
+        1233
+      ],
+      "text": "Note: Shaded area marks the Great Recession, which ran from December 2007 to June 2009. Source: National Survey of Latinos conducted Oct. 21-Nov. 30, 2015; surveys conducted Dec.8-13, 2015;Oct.24-28, 2012; Sept.12-16,2012;Dec.7-11,2011;Dec.3-8, 2008 Oct.9-12, 2008; Aug.5-10,2004 Latinos Increasingly Confident in Personal Finances, See Better Economic Times Ahead PEW RESEARCH CENTER",
+      "rec_conf": 0.9646244304520744
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_0_title",
+      "type": "title",
+      "page": 3,
+      "bbox": [
+        132,
+        184,
+        1028,
+        270
+      ],
+      "text": "Latinos Increasingly Confident in Personal Finances. See Better Economic Times Ahead",
+      "rec_conf": 0.9916157424449921
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_0_related_0",
+      "type": "text",
+      "page": 3,
+      "bbox": [
+        131,
+        288,
+        1035,
+        350
+      ],
+      "text": "Yet many economic indicators show few gains for the community since the Great Recession",
+      "rec_conf": 0.9882376790046692
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_0_related_1",
+      "type": "text",
+      "page": 1,
+      "bbox": [
+        134,
+        506,
+        412,
+        523
+      ],
+      "text": "Pew Research Center 2016",
+      "rec_conf": 0.9931741952896118
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_0_related_2",
+      "type": "text",
+      "page": 5,
+      "bbox": [
+        132,
+        955,
+        1081,
+        1200
+      ],
+      "text": "At the same time, median household income for Hispanics has stagnated since the Great Recession-in 2014 it was $42,491, a level essentially unchanged since the Great Recession. (income is also little changed among the U.S. public), according to the latest Census Bureau data.. In addition, the same Census Bureau report shows that the Hispanic poverty rate - 23.6% in 2014. - is less than a peak of 26.5% in 2o1o but remains above pre-recession levels (as it does for all. Americans). On wealth, Hispanic households had the largest percentage decline in their net worth. through 2oo9 of any major racial or ethnic group. Unlike white households, however, their net. worth continued to fall after the recession..",
+      "rec_conf": 0.9842752143740654
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_1_anchor",
+      "type": "figure",
+      "page": 4,
+      "bbox": [
+        729,
+        465,
+        1075,
+        773
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_1_caption",
+      "type": "text",
+      "page": 4,
+      "bbox": [
+        735,
+        811,
+        1071,
+        966
+      ],
+      "text": "Note: Volunteered responses of \"Don't have children/don't plan to have children\" and Don't know/refused\" shown but not labeled. Source: National Survey of Latinos conducted Oct. 21-NoV. 30, 2015. \"Latinos Increasingly Confident in Personal Finances, See Better Economic Times Ahead\" PEWRESEARCH CENTER",
+      "rec_conf": 0.973008319735527
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_1_title",
+      "type": "title",
+      "page": 4,
+      "bbox": [
+        736,
+        303,
+        1077,
+        354
+      ],
+      "text": "Latinos see economic upward mobility for their children",
+      "rec_conf": 0.975832998752594
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_1_related_0",
+      "type": "text",
+      "page": 4,
+      "bbox": [
+        133,
+        188,
+        1035,
+        240
+      ],
+      "text": "61% say they expect their family's financial situation to improve, up from 56% who said this in. 2008.",
+      "rec_conf": 0.9491225481033325
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_1_related_1",
+      "type": "text",
+      "page": 3,
+      "bbox": [
+        784,
+        654,
+        1087,
+        728
+      ],
+      "text": "% who expect their family's financial situation to improve \"a lot\"or \"some\"in the next year",
+      "rec_conf": 0.9700599511464437
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_2_anchor",
+      "type": "figure",
+      "page": 5,
+      "bbox": [
+        464,
+        292,
+        1097,
+        843
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_2_caption",
+      "type": "text",
+      "page": 5,
+      "bbox": [
+        132,
+        955,
+        1081,
+        1200
+      ],
+      "text": "At the same time, median household income for Hispanics has stagnated since the Great Recession-in 2014 it was $42,491, a level essentially unchanged since the Great Recession. (income is also little changed among the U.S. public), according to the latest Census Bureau data.. In addition, the same Census Bureau report shows that the Hispanic poverty rate - 23.6% in 2014. - is less than a peak of 26.5% in 2o1o but remains above pre-recession levels (as it does for all. Americans). On wealth, Hispanic households had the largest percentage decline in their net worth. through 2oo9 of any major racial or ethnic group. Unlike white households, however, their net. worth continued to fall after the recession..",
+      "rec_conf": 0.9842752143740654
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_2_title",
+      "type": "title",
+      "page": 5,
+      "bbox": [
+        463,
+        218,
+        1003,
+        267
+      ],
+      "text": "U.s. Latino unemployment rate is declining, but. remains above its 2006 low",
+      "rec_conf": 0.9778471291065216
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_2_related_0",
+      "type": "text",
+      "page": 6,
+      "bbox": [
+        132,
+        1056,
+        1061,
+        1237
+      ],
+      "text": "Economic issues have long been among the top issues identified by Hispanics when asked about those that are more important to them personally. For example, in 2o14, the issues of education and the economy and jobs were rated more important than health care and immigration among registered voters. And on such issues as the minimum wage, Hispanics are more likely than the general U.S. public to support an increase - 84% versus 73%, according to the Pew Research Center's December 2015 survey.",
+      "rec_conf": 0.9886003037293752
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_2_related_1",
+      "type": "text",
+      "page": 3,
+      "bbox": [
+        470,
+        592,
+        1084,
+        643
+      ],
+      "text": "Hispanics more confident in personal finances than in 2008, see better economic times ahead",
+      "rec_conf": 0.988844245672226
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_2_related_2",
+      "type": "text",
+      "page": 6,
+      "bbox": [
+        131,
+        188,
+        1078,
+        340
+      ],
+      "text": "Nonetheless, Hispanics remain upbeat about national economic conditions. According to a December 2o15 Pew Research Center survey of U.S. adults, 35% of Hispanics said economic conditions today are good or excellent, a higher share than among whites (25%). And the same survey shows that one-third of Hispanics (34%) say U.S. economic conditions will be better in the coming year, a share about twice as high as seen among other groups of Americans.",
+      "rec_conf": 0.9922997951507568
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_3_anchor",
+      "type": "figure",
+      "page": 6,
+      "bbox": [
+        119,
+        444,
+        1093,
+        873
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_3_caption",
+      "type": "figure_caption",
+      "page": 6,
+      "bbox": [
+        127,
+        888,
+        1087,
+        1004
+      ],
+      "text": "Note: Shaded areas mark recessions. The Great Recession was from December 2007 to June 2009. In 2001, a recession ran from March to November. The lines break after 2013 because the income question was redesigned. Source: For real median household income and the poverty rate, U.S. Census Bureau. For median net worth, Pew Research Center tabulations of the Survey of Consumer Finances public-use data \"Latinos Increasingly Confident in Personal Finances, See Better Economic Times Ahead\" PEW RESEARCH CENTER",
+      "rec_conf": 0.9800776541233063
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_3_title",
+      "type": "title",
+      "page": 6,
+      "bbox": [
+        132,
+        428,
+        1073,
+        451
+      ],
+      "text": "Latinos lag behind U.S. public on income and wealth and have higher poverty rates",
+      "rec_conf": 0.9915050864219666
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_3_related_0",
+      "type": "text",
+      "page": 5,
+      "bbox": [
+        132,
+        955,
+        1081,
+        1200
+      ],
+      "text": "At the same time, median household income for Hispanics has stagnated since the Great Recession-in 2014 it was $42,491, a level essentially unchanged since the Great Recession. (income is also little changed among the U.S. public), according to the latest Census Bureau data.. In addition, the same Census Bureau report shows that the Hispanic poverty rate - 23.6% in 2014. - is less than a peak of 26.5% in 2o1o but remains above pre-recession levels (as it does for all. Americans). On wealth, Hispanic households had the largest percentage decline in their net worth. through 2oo9 of any major racial or ethnic group. Unlike white households, however, their net. worth continued to fall after the recession..",
+      "rec_conf": 0.9842752143740654
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_3_related_1",
+      "type": "text",
+      "page": 8,
+      "bbox": [
+        132,
+        334,
+        581,
+        478
+      ],
+      "text": "since the Great Recession, and this growing optimism extends across nearly all Latino. demographic subgroups. However, half of Latinos say their family income is not keeping up with the cost of living.",
+      "rec_conf": 0.9898171871900558
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_3_related_2",
+      "type": "text",
+      "page": 6,
+      "bbox": [
+        131,
+        188,
+        1078,
+        340
+      ],
+      "text": "Nonetheless, Hispanics remain upbeat about national economic conditions. According to a December 2o15 Pew Research Center survey of U.S. adults, 35% of Hispanics said economic conditions today are good or excellent, a higher share than among whites (25%). And the same survey shows that one-third of Hispanics (34%) say U.S. economic conditions will be better in the coming year, a share about twice as high as seen among other groups of Americans.",
+      "rec_conf": 0.9922997951507568
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_4_anchor",
+      "type": "figure",
+      "page": 8,
+      "bbox": [
+        633,
+        584,
+        1078,
+        962
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_4_caption",
+      "type": "text",
+      "page": 8,
+      "bbox": [
+        666,
+        1120,
+        1046,
+        1137
+      ],
+      "text": "2004200620082010 2012 2015",
+      "rec_conf": 0.9713177879651388
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_4_title",
+      "type": "title",
+      "page": 8,
+      "bbox": [
+        132,
+        516,
+        585,
+        570
+      ],
+      "text": "Views of current personal finances rebound",
+      "rec_conf": 0.9962449371814728
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_4_related_0",
+      "type": "text",
+      "page": 9,
+      "bbox": [
+        131,
+        1096,
+        586,
+        1150
+      ],
+      "text": "Younger Hispanic adults tended to have bigger. gains than older Hispanics.",
+      "rec_conf": 0.9885172843933105
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_4_related_1",
+      "type": "text",
+      "page": 8,
+      "bbox": [
+        131,
+        1181,
+        570,
+        1329
+      ],
+      "text": "The latest Hispanic survey also suggests that the share of Hispanics with a positive view of. their pocketbook finances has essentially caught up to the general public: 43% of the general public versus 4o% of Hispanics",
+      "rec_conf": 0.9877577424049377
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_4_related_2",
+      "type": "text",
+      "page": 9,
+      "bbox": [
+        130,
+        285,
+        587,
+        434
+      ],
+      "text": "The gap has closed significantly since 2oo8 when the difference between Latinos and the public stood at 18 percentage points (41% for all Americans and 23% of Latinos), roughly the. same-sized gap as in earlier years.",
+      "rec_conf": 0.9890643239021302
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_5_anchor",
+      "type": "table",
+      "page": 9,
+      "bbox": [
+        632,
+        375,
+        1099,
+        1161
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_5_caption",
+      "type": "text",
+      "page": 9,
+      "bbox": [
+        629,
+        268,
+        1023,
+        312
+      ],
+      "text": "% who say their personal financial situation is in. \"excellent\"or \"goodshape",
+      "rec_conf": 0.9655552804470062
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_5_title",
+      "type": "title",
+      "page": 9,
+      "bbox": [
+        628,
+        202,
+        1052,
+        255
+      ],
+      "text": "Ratings of personal finances improve. among most Latino groups",
+      "rec_conf": 0.9855173826217651
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_5_related_0",
+      "type": "text",
+      "page": 8,
+      "bbox": [
+        132,
+        334,
+        581,
+        478
+      ],
+      "text": "since the Great Recession, and this growing optimism extends across nearly all Latino. demographic subgroups. However, half of Latinos say their family income is not keeping up with the cost of living.",
+      "rec_conf": 0.9898171871900558
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_5_related_1",
+      "type": "text",
+      "page": 10,
+      "bbox": [
+        164,
+        253,
+        1060,
+        306
+      ],
+      "text": "By contrast, gains in perceptions of economic well-being among Latinos 65 years old or older were more modest, standing at 37% in 2015",
+      "rec_conf": 0.9947214126586914
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_5_related_2",
+      "type": "text",
+      "page": 9,
+      "bbox": [
+        130,
+        936,
+        586,
+        1055
+      ],
+      "text": "An analysis of 20o8 and 2015 survey data finds that Latino perceptions of their economic well-being have increased among most major Latino demographic subgroups",
+      "rec_conf": 0.9863692373037338
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_6_anchor",
+      "type": "figure",
+      "page": 10,
+      "bbox": [
+        470,
+        831,
+        1096,
+        1181
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_6_caption",
+      "type": "text",
+      "page": 10,
+      "bbox": [
+        571,
+        783,
+        1082,
+        801
+      ],
+      "text": "Falling behind Staying about even with Going up faster than",
+      "rec_conf": 0.9704127311706543
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_6_title",
+      "type": "title",
+      "page": 10,
+      "bbox": [
+        464,
+        639,
+        1010,
+        719
+      ],
+      "text": "In 2015, half of Hispanic adults said their family. income was falling behind the cost of living,. unchanged from 2014",
+      "rec_conf": 0.9887453516324362
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_6_related_0",
+      "type": "text",
+      "page": 9,
+      "bbox": [
+        130,
+        936,
+        586,
+        1055
+      ],
+      "text": "An analysis of 20o8 and 2015 survey data finds that Latino perceptions of their economic well-being have increased among most major Latino demographic subgroups",
+      "rec_conf": 0.9863692373037338
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_6_related_1",
+      "type": "text",
+      "page": 10,
+      "bbox": [
+        131,
+        349,
+        1074,
+        560
+      ],
+      "text": "These differences by age are the exception, not the rule, as similar-sized gains are recorded among. most other demographic subgroups. For example, ratings of personal finances rose by 17 percentage points among U.S.-born Hispanics and by 18 points among those born in another. country. Positive views of economic well-being rose by 16 percentage points among Latino men. and by 18 points among Latina women. These rosy assessments also increased by double digits. among those with less than a high school education (+12 points) and high school graduates (+16) as well as those who had attended college (+17).",
+      "rec_conf": 0.989378673689706
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_6_related_2",
+      "type": "text",
+      "page": 9,
+      "bbox": [
+        131,
+        1096,
+        586,
+        1150
+      ],
+      "text": "Younger Hispanic adults tended to have bigger. gains than older Hispanics.",
+      "rec_conf": 0.9885172843933105
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_7_anchor",
+      "type": "figure",
+      "page": 12,
+      "bbox": [
+        638,
+        555,
+        1075,
+        1112
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_7_caption",
+      "type": "text",
+      "page": 12,
+      "bbox": [
+        132,
+        286,
+        1069,
+        374
+      ],
+      "text": "Most Hispanics are confident their finances will improve in the next year and also see a bright financial future for their children. Those already prospering are the most likely to be optimistic in. their expectations about the next year..",
+      "rec_conf": 0.9848769307136536
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_7_title",
+      "type": "title",
+      "page": 12,
+      "bbox": [
+        629,
+        425,
+        1029,
+        477
+      ],
+      "text": "Financial expectations rising faster among Hispanics since recession.",
+      "rec_conf": 0.985396534204483
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_7_related_0",
+      "type": "text",
+      "page": 11,
+      "bbox": [
+        163,
+        188,
+        1035,
+        275
+      ],
+      "text": "Between 2014 and 2o15, Hispanic views of family income in relation to the cost of living were unchanged--about half of all Hispanic adults in both years said they were falling behind financially, as was true for the U.S. public as a whole.",
+      "rec_conf": 0.990515391031901
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_7_related_1",
+      "type": "text",
+      "page": 10,
+      "bbox": [
+        132,
+        753,
+        415,
+        968
+      ],
+      "text": "Two other Pew Research Center surveys of U.S. adults conducted in 2014 and 2015 show that many Hispanics say their family income is falling behind the cost of living.",
+      "rec_conf": 0.9880484683173043
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_7_related_2",
+      "type": "text",
+      "page": 14,
+      "bbox": [
+        130,
+        796,
+        1076,
+        914
+      ],
+      "text": "Turning to other demographic groups, the latest survey finds that both Latino men (+18 points). and Latina women (+11) are more optimistic about their finances now than they were seven years. ago. Among U.S.-born and immigrant Hispanics, hopeful views of their family's finances rose by. 14 percentage points to 81% in each group.",
+      "rec_conf": 0.9885339140892029
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_8_anchor",
+      "type": "figure",
+      "page": 13,
+      "bbox": [
+        627,
+        303,
+        1097,
+        1381
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_8_title",
+      "type": "title",
+      "page": 13,
+      "bbox": [
+        629,
+        215,
+        1040,
+        267
+      ],
+      "text": "Since 2008, most Latino subgroups more optimistic about their finances",
+      "rec_conf": 0.9903843700885773
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_8_related_0",
+      "type": "text",
+      "page": 13,
+      "bbox": [
+        132,
+        1320,
+        585,
+        1373
+      ],
+      "text": "As with perceptions of their current financial condition, older Latinos were significantly less",
+      "rec_conf": 0.9992340803146362
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_8_related_1",
+      "type": "text",
+      "page": 14,
+      "bbox": [
+        130,
+        796,
+        1076,
+        914
+      ],
+      "text": "Turning to other demographic groups, the latest survey finds that both Latino men (+18 points). and Latina women (+11) are more optimistic about their finances now than they were seven years. ago. Among U.S.-born and immigrant Hispanics, hopeful views of their family's finances rose by. 14 percentage points to 81% in each group.",
+      "rec_conf": 0.9885339140892029
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_8_related_2",
+      "type": "text",
+      "page": 11,
+      "bbox": [
+        163,
+        317,
+        1059,
+        401
+      ],
+      "text": "By contrast, whites reported some improvement in their family income relative to the cost of living across the one-year time period. As a result, overall in 2o15, the three racial and ethnic groups looked fairly similar on this measure.",
+      "rec_conf": 0.9956181645393372
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_9_anchor",
+      "type": "figure",
+      "page": 15,
+      "bbox": [
+        477,
+        466,
+        1084,
+        850
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_9_caption",
+      "type": "text",
+      "page": 15,
+      "bbox": [
+        132,
+        1148,
+        1076,
+        1233
+      ],
+      "text": "By contrast, only about 17% of those who say their current finances are in only fair shape and 15% of those who say their finances are in poor shape expect the next year to bring a major. improvement in their finances.",
+      "rec_conf": 0.9950834711392721
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_9_title",
+      "type": "title",
+      "page": 15,
+      "bbox": [
+        460,
+        300,
+        1089,
+        351
+      ],
+      "text": "Future financial expectations among Hispanics shaped. by current personal financial situation.",
+      "rec_conf": 0.9857027232646942
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_9_related_0",
+      "type": "text",
+      "page": 15,
+      "bbox": [
+        130,
+        503,
+        421,
+        1104
+      ],
+      "text": "Overall, Hispanics with a positive view of their current financial situation are significantly more likely than those who rate their economic circumstances as only fair or poor to say their family's finances will improve. over the next 12 months. Among the 4o% of Hispanics who say they are in excellent or good shape financially, a third believe that their family's financial situation will improve a lot in the next. year while about half (56%) say they expect some advancement.",
+      "rec_conf": 0.988596475786633
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_9_related_1",
+      "type": "text",
+      "page": 13,
+      "bbox": [
+        131,
+        1000,
+        582,
+        1150
+      ],
+      "text": "Only one-in-ten say their finances will get \"a lot\" worse (3%) or \"a little' worse (7%) in the year ahead, down from 16% in 2oo8 and a 12 percentage point decline from 2o11, when 21% expressed a similarly pessimistic view.",
+      "rec_conf": 0.9747197031974792
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_9_related_2",
+      "type": "text",
+      "page": 13,
+      "bbox": [
+        132,
+        1320,
+        585,
+        1373
+      ],
+      "text": "As with perceptions of their current financial condition, older Latinos were significantly less",
+      "rec_conf": 0.9992340803146362
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_10_anchor",
+      "type": "figure",
+      "page": 16,
+      "bbox": [
+        623,
+        414,
+        1094,
+        1216
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_10_caption",
+      "type": "text",
+      "page": 16,
+      "bbox": [
+        629,
+        344,
+        1058,
+        386
+      ],
+      "text": "% of Latinos who say, in their lifetimes, their children will be... compared with themselves",
+      "rec_conf": 0.9677390456199646
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_10_title",
+      "type": "title",
+      "page": 16,
+      "bbox": [
+        628,
+        277,
+        1029,
+        326
+      ],
+      "text": "Most Latinos optimistic about their children's financial future",
+      "rec_conf": 0.9831050932407379
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_10_related_0",
+      "type": "text",
+      "page": 14,
+      "bbox": [
+        130,
+        796,
+        1076,
+        914
+      ],
+      "text": "Turning to other demographic groups, the latest survey finds that both Latino men (+18 points). and Latina women (+11) are more optimistic about their finances now than they were seven years. ago. Among U.S.-born and immigrant Hispanics, hopeful views of their family's finances rose by. 14 percentage points to 81% in each group.",
+      "rec_conf": 0.9885339140892029
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_10_related_1",
+      "type": "text",
+      "page": 14,
+      "bbox": [
+        130,
+        509,
+        1079,
+        625
+      ],
+      "text": "According to the latest survey, those who had completed some college expressed somewhat more. confidence in their economic future than those with less than a high school diploma; fully 85% of college-educated Latinos expect improvements in the year ahead compared with 8o% of high. school graduates and 77% of Latinos with less than a high school education..",
+      "rec_conf": 0.98133984208107
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_10_related_2",
+      "type": "text",
+      "page": 16,
+      "bbox": [
+        131,
+        593,
+        583,
+        966
+      ],
+      "text": "Views also differ by age, with older Latinos more pessimistic about their children's financial futures than younger Latinos. Among those ages 65 and older, 52% say their children will be better off than themselves. By comparison, 75% of Latinos ages 18 to 29 have similar expectations of their children, as do 76% of those ages 30 to 49 and 7o% of those ages 50 to 64. Among those ages 65 and older, 13% say their children will be less well off, higher than among Latinos ages 18 to 29 and 30 to 49.",
+      "rec_conf": 0.9875145554542542
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_11_anchor",
+      "type": "table",
+      "page": 18,
+      "bbox": [
+        128,
+        616,
+        1066,
+        775
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_11_caption",
+      "type": "text",
+      "page": 18,
+      "bbox": [
+        133,
+        812,
+        1070,
+        963
+      ],
+      "text": "For this survey, SSRS used a staff of bilingual English- and Spanish-speaking interviewers who,. when contacting a household, were able to offer respondents the option of completing the survey. in either language. A total of 679 respondents (45%) were surveyed in Spanish, and 821. respondents (55%) were interviewed in English. Any person ages 18 or older who said he or she. was of Latino origin or descent was eligible to complete the survey..",
+      "rec_conf": 0.9889556646347046
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_11_title",
+      "type": "title",
+      "page": 18,
+      "bbox": [
+        133,
+        555,
+        585,
+        576
+      ],
+      "text": "2015 National Survey of Latinos details.",
+      "rec_conf": 0.9804636240005493
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_11_related_0",
+      "type": "text",
+      "page": 18,
+      "bbox": [
+        132,
+        1004,
+        1076,
+        1183
+      ],
+      "text": "To ensure the highest possible coverage of the eligible population, the study employed a dual-. frame landline/cellular telephone design. The sample consisted of a landline sampling frame. (yielding 449 completed interviews) and a cellphone sampling frame (1,051 interviews).4 Both the. landline and cellphone sampling frames used a stratified sampling design, oversampling areas. with higher densities of Latino residents. Overall the study employed six strata. Landline and. cellphone samples were provided by Marketing Systems Group (MSG).",
+      "rec_conf": 0.9892014463742574
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_11_related_1",
+      "type": "text",
+      "page": 19,
+      "bbox": [
+        163,
+        478,
+        1058,
+        557
+      ],
+      "text": "MSG's GENESYS sample generation system was used to generate the cellphone sample, which was. divided into high and medium strata, based upon the share of Latinos in the sample telephone. area code.",
+      "rec_conf": 0.9827082554499308
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_11_related_2",
+      "type": "text",
+      "page": 19,
+      "bbox": [
+        130,
+        287,
+        1076,
+        437
+      ],
+      "text": "It is important to note that the existence of a surname stratum does not mean the survey was. exclusively a surname sample design. The sample is RDD (random-digit-dial), with the randomly. selected telephone numbers divided by whether or not they were found to be associated with a Spanish surname. This was done to ease administration by allowing for more effective assignment. of interviewers and labor hours, as well as to increase the efficiency of the sample..",
+      "rec_conf": 0.9846845388412475
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_12_anchor",
+      "type": "figure",
+      "page": 19,
+      "bbox": [
+        119,
+        857,
+        1103,
+        1171
+      ],
+      "text": "",
+      "rec_conf": 0.0
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_12_caption",
+      "type": "text",
+      "page": 19,
+      "bbox": [
+        130,
+        605,
+        1077,
+        726
+      ],
+      "text": "Samples for the low-incidence landline and low-incidence cell strata were drawn from previously interviewed respondents in SSRS's weekly dual-frame Excel omnibus survey. Respondents who. indicated they were Latino on the omnibus survey were eligible to be re-contacted for this survey.. Altogether, a total of 293 previously interviewed respondents were included in this sample..",
+      "rec_conf": 0.9909278601408005
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_12_title",
+      "type": "title",
+      "page": 18,
+      "bbox": [
+        133,
+        188,
+        339,
+        217
+      ],
+      "text": "Methodology",
+      "rec_conf": 0.9985827803611755
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_12_related_0",
+      "type": "text",
+      "page": 20,
+      "bbox": [
+        131,
+        540,
+        1016,
+        594
+      ],
+      "text": "The sample was corrected for within-household selection in landline interviews, which depended upon the number of Latino adults living in the household.",
+      "rec_conf": 0.998136430978775
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_12_related_1",
+      "type": "text",
+      "page": 18,
+      "bbox": [
+        163,
+        1229,
+        1060,
+        1312
+      ],
+      "text": "For the landline sampling frame, the sample was compared with InfoUSA and Experian landline. household databases, and phone numbers associated with households that included persons with. known Latino surnames were subdivided into a surname stratum. The remaining, unmatched and.",
+      "rec_conf": 0.9880214333534241
+    },
+    {
+      "block_id": "PH_2016.06.08_Economy-Final_block_12_related_2",
+      "type": "text",
+      "page": 18,
+      "bbox": [
+        133,
+        812,
+        1070,
+        963
+      ],
+      "text": "For this survey, SSRS used a staff of bilingual English- and Spanish-speaking interviewers who,. when contacting a household, were able to offer respondents the option of completing the survey. in either language. A total of 679 respondents (45%) were surveyed in Spanish, and 821. respondents (55%) were interviewed in English. Any person ages 18 or older who said he or she. was of Latino origin or descent was eligible to complete the survey..",
+      "rec_conf": 0.9889556646347046
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_0",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 0,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_0.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_1",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 1,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_1.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_2",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 2,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_2.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_3",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 3,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_3.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_4",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 4,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_4.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_5",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 5,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_5.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_6",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 6,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_6.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_7",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 7,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_7.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_8",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 8,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_8.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_9",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 9,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_9.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_10",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 10,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_10.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_11",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 11,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_11.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_12",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 12,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_12.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_13",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 13,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_13.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_14",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 14,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_14.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_15",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 15,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_15.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_16",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 16,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_16.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_17",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 17,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_17.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_18",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 18,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_18.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_19",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 19,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_19.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_20",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 20,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_20.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_21",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 21,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_21.png"
+    },
+    {
+      "page_id": "PH_2016.06.08_Economy-Final_page_22",
+      "doc_id": "PH_2016.06.08_Economy-Final",
+      "page_num": 22,
+      "pdf_path": "data/MMLongBench/documents/PH_2016.06.08_Economy-Final.pdf",
+      "page_image_path": "/data/user/wzhao815/mmdoctest/tmp/MMLongBench/PH_2016.06.08_Economy-Final_22.png"
+    }
+  ],
+  "hyperedges": [
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_0",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_3",
+        "PH_2016.06.08_Economy-Final_block_0_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_0",
+        "relation": "page_contains_visual",
+        "page_num": 3
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_1",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_0_title",
+        "PH_2016.06.08_Economy-Final_block_0_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_1",
+        "relation": "section_contains_visual",
+        "page_num": 3
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_2",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_0_anchor",
+        "PH_2016.06.08_Economy-Final_block_0_caption",
+        "PH_2016.06.08_Economy-Final_block_0_title",
+        "PH_2016.06.08_Economy-Final_block_0_related_0",
+        "PH_2016.06.08_Economy-Final_block_0_related_1",
+        "PH_2016.06.08_Economy-Final_block_0_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_2",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 3,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_3",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_4",
+        "PH_2016.06.08_Economy-Final_block_1_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_3",
+        "relation": "page_contains_visual",
+        "page_num": 4
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_4",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_1_title",
+        "PH_2016.06.08_Economy-Final_block_1_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_4",
+        "relation": "section_contains_visual",
+        "page_num": 4
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_5",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_1_anchor",
+        "PH_2016.06.08_Economy-Final_block_1_caption",
+        "PH_2016.06.08_Economy-Final_block_1_title",
+        "PH_2016.06.08_Economy-Final_block_1_related_0",
+        "PH_2016.06.08_Economy-Final_block_1_related_1"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_5",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 2,
+          "total_blocks": 5,
+          "page_span_size": 2,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_6",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_5",
+        "PH_2016.06.08_Economy-Final_block_2_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_6",
+        "relation": "page_contains_visual",
+        "page_num": 5
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_7",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_2_title",
+        "PH_2016.06.08_Economy-Final_block_2_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_7",
+        "relation": "section_contains_visual",
+        "page_num": 5
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_8",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_2_anchor",
+        "PH_2016.06.08_Economy-Final_block_2_caption",
+        "PH_2016.06.08_Economy-Final_block_2_title",
+        "PH_2016.06.08_Economy-Final_block_2_related_0",
+        "PH_2016.06.08_Economy-Final_block_2_related_1",
+        "PH_2016.06.08_Economy-Final_block_2_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_8",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 3,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_9",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_6",
+        "PH_2016.06.08_Economy-Final_block_3_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_9",
+        "relation": "page_contains_visual",
+        "page_num": 6
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_10",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_3_title",
+        "PH_2016.06.08_Economy-Final_block_3_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_10",
+        "relation": "section_contains_visual",
+        "page_num": 6
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_11",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_3_anchor",
+        "PH_2016.06.08_Economy-Final_block_3_caption",
+        "PH_2016.06.08_Economy-Final_block_3_title",
+        "PH_2016.06.08_Economy-Final_block_3_related_0",
+        "PH_2016.06.08_Economy-Final_block_3_related_1",
+        "PH_2016.06.08_Economy-Final_block_3_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_11",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 3,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_12",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_8",
+        "PH_2016.06.08_Economy-Final_block_4_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_12",
+        "relation": "page_contains_visual",
+        "page_num": 8
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_13",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_4_title",
+        "PH_2016.06.08_Economy-Final_block_4_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_13",
+        "relation": "section_contains_visual",
+        "page_num": 8
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_14",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_4_anchor",
+        "PH_2016.06.08_Economy-Final_block_4_caption",
+        "PH_2016.06.08_Economy-Final_block_4_title",
+        "PH_2016.06.08_Economy-Final_block_4_related_0",
+        "PH_2016.06.08_Economy-Final_block_4_related_1",
+        "PH_2016.06.08_Economy-Final_block_4_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_14",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 2,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_15",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_9",
+        "PH_2016.06.08_Economy-Final_block_5_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_15",
+        "relation": "page_contains_visual",
+        "page_num": 9
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_16",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_5_title",
+        "PH_2016.06.08_Economy-Final_block_5_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_16",
+        "relation": "section_contains_visual",
+        "page_num": 9
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_17",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_5_anchor",
+        "PH_2016.06.08_Economy-Final_block_5_caption",
+        "PH_2016.06.08_Economy-Final_block_5_title",
+        "PH_2016.06.08_Economy-Final_block_5_related_0",
+        "PH_2016.06.08_Economy-Final_block_5_related_1",
+        "PH_2016.06.08_Economy-Final_block_5_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_17",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 3,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_18",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_10",
+        "PH_2016.06.08_Economy-Final_block_6_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_18",
+        "relation": "page_contains_visual",
+        "page_num": 10
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_19",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_6_title",
+        "PH_2016.06.08_Economy-Final_block_6_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_19",
+        "relation": "section_contains_visual",
+        "page_num": 10
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_20",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_6_anchor",
+        "PH_2016.06.08_Economy-Final_block_6_caption",
+        "PH_2016.06.08_Economy-Final_block_6_title",
+        "PH_2016.06.08_Economy-Final_block_6_related_0",
+        "PH_2016.06.08_Economy-Final_block_6_related_1",
+        "PH_2016.06.08_Economy-Final_block_6_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_20",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 2,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_21",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_12",
+        "PH_2016.06.08_Economy-Final_block_7_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_21",
+        "relation": "page_contains_visual",
+        "page_num": 12
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_22",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_7_title",
+        "PH_2016.06.08_Economy-Final_block_7_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_22",
+        "relation": "section_contains_visual",
+        "page_num": 12
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_23",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_7_anchor",
+        "PH_2016.06.08_Economy-Final_block_7_caption",
+        "PH_2016.06.08_Economy-Final_block_7_title",
+        "PH_2016.06.08_Economy-Final_block_7_related_0",
+        "PH_2016.06.08_Economy-Final_block_7_related_1",
+        "PH_2016.06.08_Economy-Final_block_7_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_23",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 4,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_24",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_13",
+        "PH_2016.06.08_Economy-Final_block_8_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_24",
+        "relation": "page_contains_visual",
+        "page_num": 13
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_25",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_8_title",
+        "PH_2016.06.08_Economy-Final_block_8_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_25",
+        "relation": "section_contains_visual",
+        "page_num": 13
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_26",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_8_anchor",
+        "PH_2016.06.08_Economy-Final_block_8_title",
+        "PH_2016.06.08_Economy-Final_block_8_related_0",
+        "PH_2016.06.08_Economy-Final_block_8_related_1",
+        "PH_2016.06.08_Economy-Final_block_8_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_26",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": false,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 5,
+          "page_span_size": 3,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_27",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_15",
+        "PH_2016.06.08_Economy-Final_block_9_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_27",
+        "relation": "page_contains_visual",
+        "page_num": 15
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_28",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_9_title",
+        "PH_2016.06.08_Economy-Final_block_9_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_28",
+        "relation": "section_contains_visual",
+        "page_num": 15
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_29",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_9_anchor",
+        "PH_2016.06.08_Economy-Final_block_9_caption",
+        "PH_2016.06.08_Economy-Final_block_9_title",
+        "PH_2016.06.08_Economy-Final_block_9_related_0",
+        "PH_2016.06.08_Economy-Final_block_9_related_1",
+        "PH_2016.06.08_Economy-Final_block_9_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_29",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 2,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_30",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_16",
+        "PH_2016.06.08_Economy-Final_block_10_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_30",
+        "relation": "page_contains_visual",
+        "page_num": 16
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_31",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_10_title",
+        "PH_2016.06.08_Economy-Final_block_10_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_31",
+        "relation": "section_contains_visual",
+        "page_num": 16
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_32",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_10_anchor",
+        "PH_2016.06.08_Economy-Final_block_10_caption",
+        "PH_2016.06.08_Economy-Final_block_10_title",
+        "PH_2016.06.08_Economy-Final_block_10_related_0",
+        "PH_2016.06.08_Economy-Final_block_10_related_1",
+        "PH_2016.06.08_Economy-Final_block_10_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_32",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 2,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_33",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_18",
+        "PH_2016.06.08_Economy-Final_block_11_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_33",
+        "relation": "page_contains_visual",
+        "page_num": 18
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_34",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_11_title",
+        "PH_2016.06.08_Economy-Final_block_11_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_34",
+        "relation": "section_contains_visual",
+        "page_num": 18
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_35",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_11_anchor",
+        "PH_2016.06.08_Economy-Final_block_11_caption",
+        "PH_2016.06.08_Economy-Final_block_11_title",
+        "PH_2016.06.08_Economy-Final_block_11_related_0",
+        "PH_2016.06.08_Economy-Final_block_11_related_1",
+        "PH_2016.06.08_Economy-Final_block_11_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_35",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 2,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_36",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_19",
+        "PH_2016.06.08_Economy-Final_block_12_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_36",
+        "relation": "page_contains_visual",
+        "page_num": 19
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_37",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_12_title",
+        "PH_2016.06.08_Economy-Final_block_12_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_37",
+        "relation": "section_contains_visual",
+        "page_num": 19
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_38",
+      "edge_type": "contextual",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_12_anchor",
+        "PH_2016.06.08_Economy-Final_block_12_caption",
+        "PH_2016.06.08_Economy-Final_block_12_title",
+        "PH_2016.06.08_Economy-Final_block_12_related_0",
+        "PH_2016.06.08_Economy-Final_block_12_related_1",
+        "PH_2016.06.08_Economy-Final_block_12_related_2"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_38",
+        "relation": "contextual",
+        "statistics": {
+          "has_caption": true,
+          "has_title": true,
+          "num_related_texts": 3,
+          "total_blocks": 6,
+          "page_span_size": 3,
+          "is_cross_page": true,
+          "is_merged_block": false
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_39",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final",
+        "PH_2016.06.08_Economy-Final_block_0_anchor",
+        "PH_2016.06.08_Economy-Final_block_1_anchor",
+        "PH_2016.06.08_Economy-Final_block_2_anchor",
+        "PH_2016.06.08_Economy-Final_block_3_anchor",
+        "PH_2016.06.08_Economy-Final_block_4_anchor",
+        "PH_2016.06.08_Economy-Final_block_5_anchor",
+        "PH_2016.06.08_Economy-Final_block_6_anchor",
+        "PH_2016.06.08_Economy-Final_block_7_anchor",
+        "PH_2016.06.08_Economy-Final_block_8_anchor",
+        "PH_2016.06.08_Economy-Final_block_9_anchor",
+        "PH_2016.06.08_Economy-Final_block_10_anchor",
+        "PH_2016.06.08_Economy-Final_block_11_anchor",
+        "PH_2016.06.08_Economy-Final_block_12_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_39",
+        "relation": "document_contains_visuals",
+        "num_visuals": 13,
+        "visual_types": {
+          "figure": 11,
+          "table": 2
+        }
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_40",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_3",
+        "PH_2016.06.08_Economy-Final_block_0_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_40",
+        "relation": "page_contains_visuals",
+        "page_num": 3,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_41",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_4",
+        "PH_2016.06.08_Economy-Final_block_1_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_41",
+        "relation": "page_contains_visuals",
+        "page_num": 4,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_42",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_5",
+        "PH_2016.06.08_Economy-Final_block_2_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_42",
+        "relation": "page_contains_visuals",
+        "page_num": 5,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_43",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_6",
+        "PH_2016.06.08_Economy-Final_block_3_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_43",
+        "relation": "page_contains_visuals",
+        "page_num": 6,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_44",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_8",
+        "PH_2016.06.08_Economy-Final_block_4_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_44",
+        "relation": "page_contains_visuals",
+        "page_num": 8,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_45",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_9",
+        "PH_2016.06.08_Economy-Final_block_5_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_45",
+        "relation": "page_contains_visuals",
+        "page_num": 9,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_46",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_10",
+        "PH_2016.06.08_Economy-Final_block_6_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_46",
+        "relation": "page_contains_visuals",
+        "page_num": 10,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_47",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_12",
+        "PH_2016.06.08_Economy-Final_block_7_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_47",
+        "relation": "page_contains_visuals",
+        "page_num": 12,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_48",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_13",
+        "PH_2016.06.08_Economy-Final_block_8_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_48",
+        "relation": "page_contains_visuals",
+        "page_num": 13,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_49",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_15",
+        "PH_2016.06.08_Economy-Final_block_9_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_49",
+        "relation": "page_contains_visuals",
+        "page_num": 15,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_50",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_16",
+        "PH_2016.06.08_Economy-Final_block_10_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_50",
+        "relation": "page_contains_visuals",
+        "page_num": 16,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_51",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_18",
+        "PH_2016.06.08_Economy-Final_block_11_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_51",
+        "relation": "page_contains_visuals",
+        "page_num": 18,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_52",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_page_19",
+        "PH_2016.06.08_Economy-Final_block_12_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_52",
+        "relation": "page_contains_visuals",
+        "page_num": 19,
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_53",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_0_title",
+        "PH_2016.06.08_Economy-Final_block_0_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_53",
+        "relation": "section_contains_visuals",
+        "page_num": 3,
+        "section_title": "Latinos Increasingly Confident in Personal Finances. See Better Economic Times Ahead",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_54",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_10_title",
+        "PH_2016.06.08_Economy-Final_block_10_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_54",
+        "relation": "section_contains_visuals",
+        "page_num": 16,
+        "section_title": "Most Latinos optimistic about their children's financial future",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_55",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_11_title",
+        "PH_2016.06.08_Economy-Final_block_11_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_55",
+        "relation": "section_contains_visuals",
+        "page_num": 18,
+        "section_title": "2015 National Survey of Latinos details.",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_56",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_12_title",
+        "PH_2016.06.08_Economy-Final_block_12_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_56",
+        "relation": "section_contains_visuals",
+        "page_num": 18,
+        "section_title": "Methodology",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_57",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_1_title",
+        "PH_2016.06.08_Economy-Final_block_1_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_57",
+        "relation": "section_contains_visuals",
+        "page_num": 4,
+        "section_title": "Latinos see economic upward mobility for their children",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_58",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_2_title",
+        "PH_2016.06.08_Economy-Final_block_2_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_58",
+        "relation": "section_contains_visuals",
+        "page_num": 5,
+        "section_title": "U.s. Latino unemployment rate is declining, but. remains above its 2006 low",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_59",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_3_title",
+        "PH_2016.06.08_Economy-Final_block_3_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_59",
+        "relation": "section_contains_visuals",
+        "page_num": 6,
+        "section_title": "Latinos lag behind U.S. public on income and wealth and have higher poverty rates",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_60",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_4_title",
+        "PH_2016.06.08_Economy-Final_block_4_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_60",
+        "relation": "section_contains_visuals",
+        "page_num": 8,
+        "section_title": "Views of current personal finances rebound",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_61",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_5_title",
+        "PH_2016.06.08_Economy-Final_block_5_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_61",
+        "relation": "section_contains_visuals",
+        "page_num": 9,
+        "section_title": "Ratings of personal finances improve. among most Latino groups",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_62",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_6_title",
+        "PH_2016.06.08_Economy-Final_block_6_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_62",
+        "relation": "section_contains_visuals",
+        "page_num": 10,
+        "section_title": "In 2015, half of Hispanic adults said their family. income was falling behind the cost of living,. unchanged from 2014",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_63",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_7_title",
+        "PH_2016.06.08_Economy-Final_block_7_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_63",
+        "relation": "section_contains_visuals",
+        "page_num": 12,
+        "section_title": "Financial expectations rising faster among Hispanics since recession.",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_64",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_8_title",
+        "PH_2016.06.08_Economy-Final_block_8_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_64",
+        "relation": "section_contains_visuals",
+        "page_num": 13,
+        "section_title": "Since 2008, most Latino subgroups more optimistic about their finances",
+        "num_visuals": 1
+      }
+    },
+    {
+      "edge_id": "PH_2016.06.08_Economy-Final_edge_65",
+      "edge_type": "containment",
+      "members": [
+        "PH_2016.06.08_Economy-Final_block_9_title",
+        "PH_2016.06.08_Economy-Final_block_9_anchor"
+      ],
+      "meta": {
+        "hyperedge_id": "PH_2016.06.08_Economy-Final_edge_65",
+        "relation": "section_contains_visuals",
+        "page_num": 15,
+        "section_title": "Future financial expectations among Hispanics shaped. by current personal financial situation.",
+        "num_visuals": 1
+      }
+    }
+  ],
+  "statistics": {
+    "num_blocks": 76,
+    "num_pages": 23,
+    "num_hyperedges": 66,
+    "num_containment_edges": 53,
+    "num_contextual_edges": 13,
+    "num_page_containment": 13,
+    "num_section_containment": 13,
+    "num_page_group_containment": 13,
+    "num_section_group_containment": 13,
+    "num_document_containment": 1,
+    "source_visual_groups": 13,
+    "source_visual_units": 13
+  }
+}

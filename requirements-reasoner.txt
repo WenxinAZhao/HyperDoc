@@ -1,0 +1,10 @@
+Pillow
+numpy
+tqdm
+pyyaml
+torch
+transformers
+accelerate
+qwen-vl-utils
+sentencepiece
+protobuf

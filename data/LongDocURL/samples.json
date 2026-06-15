@@ -1,0 +1,145 @@
+[
+  {
+    "question_id": "topic2title_4125651_5_9_3",
+    "doc_no": "4125651",
+    "total_pages": 104,
+    "start_end_idx": [
+      5,
+      9
+    ],
+    "question_type": "topic2title",
+    "question": "Which titles would provide insights into the importance of light efficiency and quality metrics in lighting products?\nSelect titles from the doc that best answer the question, do not alter or analyze the titles themselves.",
+    "answer": [
+      "Uiterst hoge lichtefficientie (tot meer dan 100Lm/W)",
+      "dimmable2.200KI 2.600K CRI95",
+      "ambient-dimmable2.000K·2.900KCRI95"
+    ],
+    "detailed_evidences": "",
+    "evidence_pages": [
+      4,
+      8
+    ],
+    "evidence_sources": [
+      "Layout"
+    ],
+    "answer_format": "List",
+    "task_tag": "Locating",
+    "images": [
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_0.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_1.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_2.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_3.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_4.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_5.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_6.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_7.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_8.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_9.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_10.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_11.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_12.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_13.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_14.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_15.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_16.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_17.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_18.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_19.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_20.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_21.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_22.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_23.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_24.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_25.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_26.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_27.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_28.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4125/4125651_29.png"
+    ],
+    "doc_id": "4125651.pdf",
+    "len_evidence_pages": 2,
+    "page_ids": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "question_id": "free_gpt4o_4145761_105_121_16",
+    "doc_no": "4145761",
+    "total_pages": 135,
+    "start_end_idx": [
+      105,
+      121
+    ],
+    "question_type": "extract",
+    "question": "Which of the following is the first step in creating a task from a chat message in Nextcloud Talk?\n(A) Open the 'Tasks' app.\n(B) Install the Deck app if it is not already installed.\n(C) Add a new message.\n(D) Archive the chat.\nChoose the letter name in front of the right option from A, B, C, D.",
+    "answer": "B",
+    "detailed_evidences": "The steps to creating tasks from chat messages in Nextcloud Talk are:\n1. Install the Deck app if it is not already installed.\n2. Use the '...' menu of a chat message to select the option to turn the message into a Deck task.\nThis information is explained in <box>(0.12, 0.49, 0.8, 0.5)</box>, <box>(0.12, 0.86, 0.88, 0.89)</box>, <box>(0.11, 0.08, 0.88, 0.65)</box>, pages 112 and 111.",
+    "evidence_pages": [
+      110,
+      111
+    ],
+    "evidence_sources": [
+      "Text",
+      "Figure"
+    ],
+    "answer_format": "String",
+    "task_tag": "Understanding",
+    "images": [
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_98.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_99.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_100.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_101.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_102.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_103.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_104.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_105.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_106.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_107.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_108.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_109.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_110.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_111.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_112.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_113.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_114.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_115.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_116.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_117.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_118.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_119.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_120.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_121.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_122.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_123.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_124.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_125.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_126.png",
+      "/data/oss_bucket_0/achao.dc/public_datasets/pdf_pngs/4000-4999/4145/4145761_127.png"
+    ],
+    "doc_id": "4145761.pdf",
+    "len_evidence_pages": 2,
+    "page_ids": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ]
+  }
+]

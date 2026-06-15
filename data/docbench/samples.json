@@ -1,0 +1,28 @@
+[
+  {
+    "question_id": "docbench_0_0",
+    "doc_no": "0",
+    "doc_id": "P19-1598.pdf",
+    "question": "What is the primary challenge addressed by the introduction of the Linked WikiText-2 dataset?",
+    "answer": "The primary challenge addressed is incorporating factual knowledge into language models due to difficulty in obtaining training data that describes which entities or facts each token is referring to.",
+    "evidence_pages": [],
+    "evidence_sources": [],
+    "answer_format": "Str",
+    "page_ids": [],
+    "type": "text-only",
+    "evidence": "\"...one of the primary barriers to incorporating factual knowledge into language models is that training data is hard to obtain. Standard language modeling corpora consist only of text, and thus are unable to describe which entities or facts each token is referring to.\""
+  },
+  {
+    "question_id": "docbench_0_1",
+    "doc_no": "0",
+    "doc_id": "P19-1598.pdf",
+    "question": "What is the top-1 accuracy of the Oracle KGLM on birthdate prediction?",
+    "answer": "The top-1 accuracy of the Oracle KGLM on birthdate prediction is 65%.",
+    "evidence_pages": [],
+    "evidence_sources": [],
+    "answer_format": "Str",
+    "page_ids": [],
+    "type": "multimodal-t",
+    "evidence": "The table lists the top-1/top-5 accuracy for each category and the Oracle KGLM's top-1 accuracy for birthdate prediction is specifically listed as 65."
+  }
+]

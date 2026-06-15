@@ -1,0 +1,12 @@
+Pillow
+numpy
+tqdm
+pyyaml
+torch
+transformers
+open_clip_torch
+paddlepaddle-gpu
+paddleocr
+opencv-python
+networkx
+colpali-engine
