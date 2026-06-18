@@ -98,6 +98,19 @@ def intent_rerank(
     return [he for group_hes in groups.values() for he in group_hes]
 
 
+def _is_successful_aggregation_candidate(h) -> bool:
+    raw = h.raw_dict if hasattr(h, 'raw_dict') else (h if isinstance(h, dict) else {})
+    tool = getattr(h, 'tool', raw.get('tool'))
+    if tool not in AGGREGATION_TOOLS:
+        return False
+    if raw.get('is_count_result') is False and raw.get('count_result') is None:
+        return False
+    if raw.get('is_count_result') or raw.get('count_result') is not None:
+        return True
+    if raw.get('is_enumerate_result') or raw.get('enumerated_items') is not None:
+        return True
+    return False
+
 def _final_cap_anchor_key(he, group_mode: str = "block_id") -> Optional[str]:
     """Return the grouping key used by the convert-stage MULTI_UNIT cap."""
     rd = getattr(he, "raw_dict", None) or {}
@@ -129,18 +142,17 @@ def _final_cap_anchor_key(he, group_mode: str = "block_id") -> Optional[str]:
     return _anchor_page()
 
 
-def _apply_convert_equivalent_final_cap(
+def _apply_final_evidence_cap(
     selected: List,
     cap: int,
     evidence_level: str,
     intent_type: str,
     group_mode: str = "block_id",
 ) -> Tuple[List, Dict]:
-    """Cap optimizer output so convert(max_candidates=None) sees a pre-capped list.
+    """Apply the final evidence cap before VLM input construction.
 
-    This mirrors convert_units_to_vlm_input's regular-candidate selection:
-    ordinary queries keep the selected-order prefix; intent-aware MULTI_UNIT
-    queries use group round-robin with the same grouping modes.
+    Ordinary queries keep the selected-order prefix. Intent-aware MULTI_UNIT
+    queries use group round-robin to preserve evidence from each entity group.
     """
     limit = max(1, int(cap))
     before = len(selected)
@@ -198,9 +210,7 @@ def _apply_convert_equivalent_final_cap(
 # ============================================================================
 
 def _ef_prune_blocks(he, keywords: List[str], alpha: float = 0.5,
-                     preserve_title_blocks: bool = False,
-                     cost_aware: bool = False,
-                     density_alpha: float = 1.0) -> bool:
+                     preserve_title_blocks: bool = False) -> bool:
     """Prune related_blocks of a QueryHyperedge in place.
 
     Rules:
@@ -208,9 +218,6 @@ def _ef_prune_blocks(he, keywords: List[str], alpha: float = 0.5,
       - Aggregation results (count/enumerate): fully exempt.
       - Soft-tool HEs: greedy marginal coverage selection on related_blocks
         using query keywords.
-      - Optional cost-aware mode ranks candidate related_blocks by
-        marginal-gain density using block text length as a cheap proxy
-        for context cost, then applies a relative density stop.
       - If preserve_title_blocks=True: title-type blocks are always kept
         regardless of keyword match (needed for topic2title/summary2tab).
 
@@ -258,31 +265,17 @@ def _ef_prune_blocks(he, keywords: List[str], alpha: float = 0.5,
             total += max(0.0, s - best_kw[kw])
         return total / len(keywords)
 
-    def _block_cost(text_lower: str) -> int:
-        # Use word count as a cheap approximation of textual context cost.
-        if not text_lower:
-            return 1
-        return max(1, len(text_lower.split()))
-
     # Greedy best-first selection.
     remaining = list(range(len(related)))
     selected_indices: List[int] = []
     top1_delta = 0.0
-    top1_density = 0.0
 
     while remaining:
         best_d, best_i = -1.0, -1
-        best_density = -1.0
-        best_cost = 1
         for i in remaining:
             text_lower = (related[i].text or '').lower()
             d = _marginal(text_lower)
-            if cost_aware:
-                c = _block_cost(text_lower)
-                density = d / max(1, c)
-                if density > best_density + 1e-9:
-                    best_density, best_d, best_i, best_cost = density, d, i, c
-            elif d > best_d + 1e-9:
+            if d > best_d + 1e-9:
                 best_d, best_i = d, i
 
         if best_i < 0:
@@ -290,12 +283,8 @@ def _ef_prune_blocks(he, keywords: List[str], alpha: float = 0.5,
 
         if not top1_delta:
             top1_delta = best_d
-        if cost_aware and not top1_density:
-            top1_density = best_density
 
         if best_d < max(min_gain, alpha * top1_delta):
-            break
-        if cost_aware and top1_density and best_density < float(density_alpha) * top1_density:
             break
 
         selected_indices.append(best_i)
@@ -333,11 +322,9 @@ def select_hyperedges(
     k_max: int = 5,
     maximize_kw_threshold: float = 0.05,
     relative_gain_alpha: float = 0.80,
-    cca_rerank: bool = False,
+    final_rerank: bool = False,
     block_prune: bool = False,
     block_prune_alpha: float = 0.50,
-    block_prune_cost_aware: bool = False,
-    block_prune_density_alpha: float = 1.0,
     preserve_title_blocks: bool = False,
     cost_aware_select: bool = False,
     density_alpha: float = 0.90,
@@ -357,6 +344,11 @@ def select_hyperedges(
 
     This is the ONLY optimizer entry point.  All query types flow through
     the same hard-initialization and soft-augmentation pipeline.
+
+    Internal naming note:
+      phase1 = hard-coverage initialization.
+      phase2 = density-based soft augmentation.
+      phase3 = final reranking and block pruning.
 
     Parameters
     ----------
@@ -389,18 +381,13 @@ def select_hyperedges(
     block_prune : bool
         Apply block-level pruning to soft-tool HEs. Hard-tool and aggregation
         HEs are exempt.
-    cca_rerank : bool
+    final_rerank : bool
         Apply intent_rerank() to soft-tool HEs before block pruning.
         For MULTI_UNIT: groups soft HEs
         by anchor entity and sorts within each group by score descending,
         preserving inter-group order.  For UNIT/DOCUMENT: no-op.
     block_prune_alpha : float
         Relative threshold for block-level pruning.
-    block_prune_cost_aware : bool
-        If True, block pruning ranks candidate related_blocks by marginal-gain
-        density using block text length as a cheap cost proxy.
-    block_prune_density_alpha : float
-        Relative density stopping threshold for cost-aware block pruning.
 
     Returns
     -------
@@ -820,7 +807,20 @@ def select_hyperedges(
             raw_phase1.append(h)
 
     effective_k_max, dynamic_budget_meta = _derive_effective_k_max(cands)
-    phase1, phase1_meta = _phase1_compact(raw_phase1)
+    phase1_budget = max(1, int(effective_k_max))
+    locked = [h for h in raw_phase1 if _is_successful_aggregation_candidate(h)]
+    locked_ids = {id(h) for h in locked}
+    remaining_prefix = [h for h in raw_phase1 if id(h) not in locked_ids]
+    room = max(0, phase1_budget - len(locked))
+    phase1 = locked + remaining_prefix[:room]
+    phase1_meta = {
+        "phase1_budget": phase1_budget,
+        "phase1_raw_count": len(raw_phase1),
+        "phase1_compacted_count": len(phase1),
+        "phase1_compaction_applied": len(raw_phase1) > len(phase1),
+        "phase1_compaction_dropped": len(raw_phase1) - len(phase1),
+        "phase1_compaction_mode": "prefix_preserve_aggregation",
+    }
     phase1_ids = set()
     for h in phase1:
         phase1_ids.add(id(h))
@@ -1071,7 +1071,7 @@ def select_hyperedges(
     selected = phase1 + phase2
 
     # Intent-specific reranking before block pruning.
-    if cca_rerank and phase2:
+    if final_rerank and phase2:
         phase2_reranked = intent_rerank(phase2, evidence_level)
         selected = phase1 + phase2_reranked
     else:
@@ -1084,15 +1084,13 @@ def select_hyperedges(
         for he in phase2_reranked:
             before = len(he.related_blocks)
             removed = _ef_prune_blocks(he, keywords, alpha=block_prune_alpha,
-                                       preserve_title_blocks=preserve_title_blocks,
-                                       cost_aware=block_prune_cost_aware,
-                                       density_alpha=block_prune_density_alpha)
+                                       preserve_title_blocks=preserve_title_blocks)
             if removed:
                 phase3_pruned += 1
                 phase3_blocks_removed += before - len(he.related_blocks)
 
-    # Convert-equivalent final cap runs after all optimizer-internal modules
-    # (CCA rerank + block pruning), matching the old downstream convert cap.
+    # Final cap runs after optimizer-internal modules:
+    # phase3 reranking and block pruning happen before the VLM evidence cap.
     final_cap_meta = {
         "applied": False,
         "limit": None,
@@ -1102,13 +1100,23 @@ def select_hyperedges(
         "mode": "disabled",
     }
     if optimizer_final_cap:
-        selected, final_cap_meta = _apply_convert_equivalent_final_cap(
-            selected,
-            dynamic_budget_meta["effective_k_max"],
-            evidence_level,
-            intent_type,
-            final_cap_group_mode,
-        )
+        if any(_is_successful_aggregation_candidate(h) for h in selected):
+            final_cap_meta = {
+                "applied": False,
+                "limit": dynamic_budget_meta["effective_k_max"],
+                "before": len(selected),
+                "after": len(selected),
+                "dropped": 0,
+                "mode": "aggregation_preserved",
+            }
+        else:
+            selected, final_cap_meta = _apply_final_evidence_cap(
+                selected,
+                dynamic_budget_meta["effective_k_max"],
+                evidence_level,
+                intent_type,
+                final_cap_group_mode,
+            )
 
     # Hard coverage on the full selected set: constraint satisfaction ratio,
     # not "tool fired ratio".  _hard_constraints and n_hard were already
@@ -1140,17 +1148,15 @@ def select_hyperedges(
         "legacy_k_max":    dynamic_budget_meta["legacy_k_max"],
         "effective_k_max": dynamic_budget_meta["effective_k_max"],
         "dynamic_vlm_budget_meta": dynamic_budget_meta,
-        "final_convert_equivalent_cap": final_cap_meta,
+        "final_evidence_cap": final_cap_meta,
         "optimizer_final_cap": optimizer_final_cap,
         "selected_total":  len(selected),
         "final_hard_cov":  round(final_hard, 4),
         "final_soft_cov":  round(final_soft, 4),
         "best_combined":   round(best_combined[0], 4) if not is_multi else None,
         "best_fs":         {kw: round(v, 4) for kw, v in best_fs.items()} if is_multi else None,
-        "cca_rerank":      cca_rerank,
+        "final_rerank":      final_rerank,
         "block_prune":     block_prune,
-        "block_prune_cost_aware": block_prune_cost_aware if block_prune else None,
-        "block_prune_density_alpha": block_prune_density_alpha if block_prune_cost_aware else None,
         "cost_aware_select": cost_aware_select,
         "full_vlm_cost_aware": full_vlm_cost_aware if cost_aware_select else None,
         "text_cost_unit_words": text_cost_unit_words if full_vlm_cost_aware else None,
@@ -1164,7 +1170,7 @@ def select_hyperedges(
     }
 
     mode_tag = "maximize" if maximize else evidence_level
-    p25_msg = ",cca" if cca_rerank else ""
+    p25_msg = ",rerank" if final_rerank else ""
     p3_msg = (f", p3_pruned={phase3_pruned}({phase3_blocks_removed}blks)"
               if block_prune else "")
     print(
